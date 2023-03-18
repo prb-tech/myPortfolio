@@ -7,7 +7,7 @@
   padding-left: 0px;
     background-image: url("./images/me32.png");
     background-color: beige;/*245 245 220*/
-    background-position: right top;
+    background-position: top 0px right 20%;
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
