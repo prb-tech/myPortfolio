@@ -12,6 +12,9 @@ h1 {
     font-family: RealityPursuitNC;
     text-align: center;
 }
+#red{
+    color: red;
+  }
 
 .image-container {
     text-align: center;
@@ -26,12 +29,16 @@ img:hover {
     height: auto;
 }
 
-p {
+p.normal {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
     line-height: 1.5;
     margin: 0;
 }
+p.footer {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
 h3{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;

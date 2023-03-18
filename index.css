@@ -20,6 +20,10 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
 }
+p {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
   #toppic {
     padding-top: 0px;
   padding-right: 0px;
@@ -30,18 +34,9 @@
     background-attachment:scroll;
     background-size: cover;
   }
-
-  p{
+  #red{
     color: red;
-    text-align: center;
   }
-  #shadowBox {
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.2);
-    /* Black w/opacity/see-through */
-    border: 3px solid;
-}
 
 .rainbow {
     text-align: center;
