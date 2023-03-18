@@ -1,0 +1,37 @@
+/*need the background image to be fixed in topmost center and then a black gradient(fade into black-top2down) scrolling over the image*/
+@font-face { font-family: UNSTEADY; src: url('./fonts/UNSTEADY.TTF'); }
+  body {
+    padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+    background-image: url("./images/me3.png");
+    background-color: beige;/*245 245 220*/
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    font-family: UNSTEADY;
+    text-align: center;
+    font-size: 70px;
+ }
+ h3 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+  #toppic {
+    padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+    background-image: url("./images/beigeGrad.svg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+  }
+
+  p{
+    color: red;
+    text-align: center;
+  }

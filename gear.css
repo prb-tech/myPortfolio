@@ -1,0 +1,38 @@
+@font-face { font-family: RealityPursuitNC; src: url('./fonts/RealityPursuitNC.ttf'); }
+body {
+    background-color: beige;/*245 245 220*/
+  }
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: RealityPursuitNC;
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+img:hover {
+    background-color:powderblue;
+    transition: all 400ms;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0;
+}
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
